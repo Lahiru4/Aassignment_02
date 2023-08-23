@@ -75,7 +75,8 @@
             left: calc(50% - 40px);
             top: calc(50% - 40px);
         }
-        .round11{
+
+        .round11 {
             width: 150px;
             height: 150px;
             background-color: #ffffff;
@@ -84,7 +85,8 @@
             left: -75px;
             bottom: -75px;
         }
-        .round22{
+
+        .round22 {
             width: 150px;
             height: 150px;
             background-color: #ffffff;
@@ -93,55 +95,67 @@
             right: -75px;
             bottom: -75px;
         }
+
+        #center_box{
+            width: 15vw;
+            aspect-ratio: 1/1;
+            background-color: rgb(214, 203, 203);
+            position: absolute;
+            top: calc(50% -  7.5vw);
+            left: calc(50% -  7.5vw);
+        }
+        #center_round{
+            width: 12vw;
+            aspect-ratio: 1/1;
+            background-color: #f70000;
+            border-radius: 50%;
+            position: absolute;
+            left: calc(50% - 6vw);
+            top: calc(50% - 6vw);
+        }
+        #body{
+            overflow: hidden;
+        }
     </style>
 </head>
-<body>
-<div id="hed1">
-
-    <div class="round1"></div>
-    <div class="round2"></div>
-    <div class="round3">
-        <div class="box"></div>
+<body id="body">
+<section>
+    <div id="hed1">
+        <div class="round1"></div>
+        <div class="round2"></div>
+        <div class="round3">
+            <div class="box"></div>
+        </div>
+        <div id="sub1"></div>
     </div>
-
-    <div id="sub1"></div>
-</div>
-
-<div id="hed2">
-    <div class="round1"></div>
-    <div class="round2"></div>
-    <div class="round3">
-        <div class="box"></div>
+    <div id="hed2">
+        <div class="round1"></div>
+        <div class="round2"></div>
+        <div class="round3">
+            <div class="box"></div>
+        </div>
+        <div id="sub2"></div>
     </div>
-
-    <div id="sub2"></div>
-</div>
-
-<div id="hed3">
-
-    <div class="round11"></div>
-    <div class="round22"></div>
-
-    <div class="round3">
-        <div class="box"></div>
+    <div id="hed3">
+        <div class="round11"></div>
+        <div class="round22"></div>
+        <div class="round3">
+            <div class="box"></div>
+        </div>
+        <div id="sub3"></div>
     </div>
-
-    <div id="sub3"></div>
-</div>
-
-<div id="hed4">
-
-    <div class="round11"></div>
-    <div class="round22"></div>
-
-    <div class="round3">
-        <div class="box"></div>
+    <div id="hed4">
+        <div class="round11"></div>
+        <div class="round22"></div>
+        <div class="round3">
+            <div class="box"></div>
+        </div>
+        <div id="sub4"></div>
     </div>
-
-    <div id="sub4"></div>
-</div>
-<div id="round4"></div>
-<div id="round5"></div>
-<div id="round6"></div>
+    <div id="center_box">
+        <div id="center_round">
+        </div>
+    </div>
+</section>
 </body>
 </html>

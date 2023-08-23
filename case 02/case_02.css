@@ -1,0 +1,94 @@
+nav > h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 22px;
+    left: 50px;
+}
+
+nav > li {
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.5vw;
+    top: 22px;
+    right: 60px;
+}
+
+nav > li > a {
+    margin: 20px;
+}
+
+aside > li > a {
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+}
+
+aside > li > a:first-child {
+    top: 700%;
+}
+
+aside > li > a:nth-child(2) {
+    top: 1100%;
+}
+
+aside > li > a:nth-child(3) {
+    top: 1500%;
+}
+
+aside > li > a:nth-child(4) {
+    top: 1900%;
+}
+
+aside > li {
+    position: absolute;
+    color: rgba(117, 104, 201, 0.89);
+}
+
+aside {
+    position: absolute;
+    width: 14vw;
+    height: 100%;
+    background-color: rgba(117, 104, 201, 0.89);
+    top: 10%;
+}
+
+div {
+    position: absolute;
+    width: 90vw;
+    height: 40vh;
+    top: 95px;
+    left: 265px;
+}
+
+div > div {
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    top: 0;
+}
+
+div > div:nth-child(1) {
+    left: 150px;
+}
+
+div > div:nth-child(2) {
+    left: 590px;
+}
+
+div > div:nth-child(3) {
+    left: 1085px;
+}
+
+display {
+    overflow: hidden;
+}
+
+#lorem_div {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    border-style: solid;
+    border-color: black;
+}

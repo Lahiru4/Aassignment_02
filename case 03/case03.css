@@ -1,0 +1,110 @@
+.f{
+    z-index: 500000;
+}
+section>div:nth-child(1){
+    border: 10px solid rgba(221, 129, 58, 0.83);
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    border-radius: 100%;
+    box-sizing: border-box;
+
+}
+section>div:nth-child(2){
+    border: 10px solid #ecec36;
+    width: 350px;
+    height: 350px;
+    position: fixed;
+    top: calc(50% - 175px);
+    left: calc(50% - 175px);
+    border-radius: 100%;
+    box-sizing: border-box;
+
+
+}
+section>div:nth-child(3){
+    border: 10px solid red;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    border-radius: 100%;
+    box-sizing: border-box;
+
+}
+
+section>div:nth-child(4){
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    border-radius: 100%;
+    box-sizing: border-box;
+
+
+}
+section>div:nth-child(5){
+    background-color: #12aadc;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1500px;
+    left: calc(50% - 150px);
+    border-radius: 100%;
+    box-sizing: border-box;
+
+}
+section>div:nth-child(6){
+    background-color: rgba(52, 246, 217, 0.59);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 2500px;
+    left: calc(50% - 150px);
+    border-radius: 100%;
+    box-sizing: border-box;
+
+}
+section>div:nth-child(7){
+    background-color: rgba(117, 104, 201, 0.89);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 2900px;
+    left: calc(50% - 150px);
+    border-radius: 100%;
+    box-sizing: border-box;
+
+}
+section>div:nth-child(6){
+    background-color: rgba(9, 23, 221, 0.59);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 3500px;
+    left: calc(50% - 150px);
+    border-radius: 100%;
+    box-sizing: border-box;
+
+}
+#lorem_div{
+    position: relative;
+    top: 8000px;
+}
+section>div>span{
+    color: white;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
