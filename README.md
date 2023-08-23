@@ -9,4 +9,4 @@
 
 
 <h1>CASE 02</h1>
-<img src="assets/image/img_2.png" width="600px" height="450px">
+<img src="assets/image/img_2.png" width="700px" height="450px">
